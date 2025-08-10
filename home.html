@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arpit's Fashion Store</title>
+  <style>
+    body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: beige;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.banner {
+  background: url(banner2.jpg) no-repeat center;
+  background-size: cover;
+  
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.banner .btn {
+  padding: 10px 20px;
+  background: #ff4d4d;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.featured {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product {
+  background: white;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.product img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.about {
+  background-color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.about h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 40px;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Arpit's Fashion Store</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="#Featured1">Features</a>
+      <a href="#about">About</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <h2>Welcome to Our Store</h2>
+    <p>Find the latest fashion for jeans, t-shirts, shirts & trousers</p>
+    <a href="product.html" class="btn">Shop Now</a>
+  </section>
+
+  <section class="featured" id="Featured1">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="jeans1.jpg" alt="Jeans 1" />
+        <h3>Ripped Blue Jeans</h3>
+        <p>₹1199</p>
+      </div>
+      <div class="product">
+        <img src="tshirt1.jpg" alt="T-shirt" />
+        <h3>Black T-shirt</h3>
+        <p>₹999</p>
+      </div>
+      <div class="product">
+        <img src="shirt2.jpg" alt="Jeans" />
+        <h3>Shirts</h3>
+        <p>₹1499</p>
+      </div>
+      <div class="product">
+        <img src="trouser1.jpg" alt="T-shirt" />
+        <h3>Trousers</h3>
+        <p>₹799</p>
+      </div>
+    </div>
+  </section>
+  <!--About-->
+     <section class="about" id="about">
+  <h2>About Us</h2>
+  <p>
+    Welcome to <strong>Arpit's Fashion Store</strong> – your one-stop destination for the latest trends in clothing.  
+    We offer high-quality <strong>T-Shirts</strong>, <strong>Shirts</strong>, <strong>Jeans</strong>, and <strong>Trousers</strong> designed to keep you comfortable and stylish.
+  </p>
+  <p>
+    Our mission is to deliver fashionable and affordable wear for everyone. Whether you're dressing for casual days, work, or special occasions – we’ve got the right pick for you.
+  </p>
+  <p>
+    We are committed to quality, customer satisfaction, and timely delivery. Thank you for choosing us!
+  </p>
+</section>
+
+  <footer>
+    <p>© 2025 Arpit's Fashion | All rights reserved.</p>
+  </footer>
+</body>
+</html>
